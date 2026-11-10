@@ -1,6 +1,6 @@
-factorialR Error: factorialR,-15. The value: -15 is invalid.
-factorialR Error: factorialR,abc. The value: abc is invalid.
-isPrimeR Error: isPrimeR,abc. The value: abc is invalid.
-Command Error: bogusCommandR,1. Command entered is invalid — bogusCommandR
-sumR Error: The value r is invalid
-
+factorialR,-15: -15must be a non-negative integer
+factorialR,abc: For input string: "abc"
+factorialR,22: long overflow
+isPrimeR,abc: Invalid prime input
+bogusCommandR,1: Unknown command: bogusCommandR
+sumR,1,2,r,f,5,6: For input string: "r"
